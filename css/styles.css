@@ -2487,7 +2487,7 @@ textarea.form-control-lg {
   line-height: 1.25;
 }
 .form-floating > label {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
