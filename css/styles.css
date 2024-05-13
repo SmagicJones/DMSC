@@ -2974,11 +2974,11 @@ fieldset:disabled .btn {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #f4623a;
-  --bs-btn-border-color: #f4623a;
+  --bs-btn-bg: var(--bs-blue);
+  --bs-btn-border-color: blue;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #cf5331;
-  --bs-btn-hover-border-color: #c34e2e;
+  --bs-btn-hover-bg: blue;
+  --bs-btn-hover-border-color: blue;
   --bs-btn-focus-shadow-rgb: 246, 122, 88;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #c34e2e;
