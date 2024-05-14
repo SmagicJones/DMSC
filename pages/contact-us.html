@@ -32,8 +32,8 @@
       rel="stylesheet"
     />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="./css/styles.css" rel="stylesheet" />
-    <script src="./js/jquery.js"></script>
+    <link href="../css/styles.css" rel="stylesheet" />
+    <script src="../js/jquery.js"></script>
     <style>
       .d-none {
         display: none;
@@ -86,15 +86,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="./testpage.html">Testpage</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact-us.html">Contact Us</a>
-              </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
+    <header class="pagehead">
       <div class="container px-4 px-lg-5 h-100">
         <div
           class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
@@ -121,7 +118,79 @@
       </div>
     </header>
 
-    <section style="background: var(--bs-blue); padding: 50px 0">
+    <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6 text-center">
+              <h2 class="mt-0">Get In Touch!</h2>
+              <hr class="divider" />
+              <p class="text-muted mb-5">
+                Please use the contact form below if you wish to ask any further
+                questions about the club and to arrange a trial swim
+              </p>
+            </div>
+          </div>
+          <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+            <div class="col-lg-6">
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- * * SB Forms Contact Form * *-->
+              <!-- * * * * * * * * * * * * * * *-->
+              <!-- This form is pre-integrated with SB Forms.-->
+              <!-- To make this form functional, sign up at-->
+              <!-- https://startbootstrap.com/solution/contact-forms-->
+              <!-- to get an API token!-->
+  
+              <form
+                action="https://usebasin.com/f/330e5b1ab789"
+                method="post"
+                class="grid md:grid-cols-1 p-4"
+              >
+                <div class="form-floating mb-3">
+                  <label for="name">Name:</label>
+                  <input type="text" name="name" id="name" class="form-control" />
+                </div>
+                <div class="form-floating mb-3">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-floating">
+                  <label for="message">Your message:</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="40"
+                    rows="10"
+                    style="border: 1px solid #ced4da; border-radius: 5px"
+                  ></textarea>
+                </div>
+  
+                <div class="p-2">
+                  <button
+                    class="btn btn-primary btn-xl"
+                    type="submit"
+                    value="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-4 text-center mb-5 mb-lg-0">
+              <i class="bi-phone fs-2 mb-3 text-muted"></i>
+              <div>Darwen Masters Swimming Club</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- <section style="background: var(--bs-blue); padding: 50px 0">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
@@ -213,7 +282,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
 
 
@@ -237,7 +306,7 @@
     </footer>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.ripples-min.js"></script>
     <script>
-      $(".masthead").ripples({
+      $(".pagehead").ripples({
         resolution: 512,
         dropRadius: 20,
         perturbance: 0.04,
