@@ -11370,6 +11370,7 @@ header.formhead {
   background-attachment: scroll;
   background-size: cover;
   height: 100vh;
+  text-align: center;
 }
 header.formhead h1,
 header.formhead .h1 {
@@ -11386,7 +11387,7 @@ header.formhead .h1 {
   }
   header.formhead h1,
   header.formhead .h1 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 @media (min-width: 1200px) {
