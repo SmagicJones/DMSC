@@ -11377,7 +11377,7 @@ header.formhead .h1 {
 }
 @media (min-width: 992px) {
   header.formhead {
-    min-height: 100vh;
+    height: 100vh;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
