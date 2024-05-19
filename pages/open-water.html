@@ -32,8 +32,8 @@
       rel="stylesheet"
     />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="./css/styles.css" rel="stylesheet" />
-    <script src="./js/jquery.js"></script>
+    <link href="../css/styles.css" rel="stylesheet" />
+    <script src="../js/jquery.js"></script>
     <style>
       .d-none {
         display: none;
@@ -72,24 +72,23 @@
               <a class="nav-link active" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/new-membership.html">Membership</a>
+              <a class="nav-link" href="#services">Membership</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/governance.html">Governance</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/open-water.html">Open Water</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/new-contact.html">Contact Us</a>
+              <a class="nav-link" href="#portfolio">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./membership.html">Membership</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./governance.html">Governance</a>
               </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Masthead-->
-
-    <header class="masthead">
+    <header class="pagehead">
       <div class="container px-4 px-lg-5 h-100">
         <div
           class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
@@ -101,40 +100,63 @@
               width="88%"
               alt=""
             />
-            <hr class="divider" />
+            <h1 class="text-white font-weight-bold">DMSC - Open Water</h1>
+            <hr class="divider divider-light" />
           </div>
           <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 mb-5">
-              Welcome to Darwen Masters Swimming Club
-            </p>
-            <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+            <!-- <p class="text-white-75 mb-5">
+              If you would like to join us you are welcome to come along for up
+              to three training sessions to see if what we offer is right for
+              you.
+            </p> -->
+            <!-- <a class="btn btn-primary btn-xl" href="#about">Find Out More</a> -->
           </div>
         </div>
       </div>
     </header>
 
-    <section class="page-section" id="about" style="background: var(--bs-blue)">
-      <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2 class="text-white mt-0">
-              Welcome to Darwen Masters Swimming Club and thank you for your
-              interest in the club.
-            </h2>
+    <section style="background: var(--bs-blue); padding: 50px 0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="text-white mt-0">Open Water</h2>
             <hr class="divider divider-light" />
-            <p class="text-white-75 mb-4">
-              Established in 1988, Darwen Masters has been providing high
-              quality structured swimming opportunities for adults from Darwen
-              and the surrounding areas for over 30 years.
-            </p>
-            <hr class="divider divider-light" />
-
-            <a class="btn btn-light btn-xl" href="#services">Get Involved!</a>
           </div>
+          <!-- <div class="col-md-6 p-4">
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <img
+                src="../assets/img/gallery/membership-image-1-optim.jpg"
+                alt=""
+                width="400"
+              />
+            </div>
+          </div> -->
+          <div class="col-md-12 p-4">
+            <div class="mt-4">
+              <p class="text-white">
+                Many club members enjoy open water swimming and take part in a wide range of events during the year.  The club does not organise open water events but there are members who can offer advice and support if this is an area of swimming new to you. 
+              </p>
+              <p class="text-white">
+                Good information about open water swimming can be found in the members handbook.
+              </p>
+          
+              <hr class="divider divider-light" />
+              <p class="text-white">
+                Similarly, many members of the club take part in triathlon events - from international iron man events to local triathlons.  We appreciate that no one will win a triathlon on the strength of their swim alone but for a good many club members , the chance to be swim-fit and technically competent means finishing the swim leg in good shape for the bike and run stages to come.
+
+              </p>
+            </div>
+          </div>
+      
         </div>
       </div>
     </section>
-
 
 
 
@@ -158,7 +180,7 @@
     </footer>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.ripples-min.js"></script>
     <script>
-      $(".masthead").ripples({
+      $(".pagehead").ripples({
         resolution: 512,
         dropRadius: 20,
         perturbance: 0.04,
